@@ -23174,21 +23174,21 @@
     },
     "done": true
   },
-  "darkutils:adventure/runelic": {
-    "criteria": {
-      "get_tome": "2024-04-02 06:49:56 +0000"
-    },
-    "done": true
-  },
   "tombstone:adventure/pass_april_fool": {
     "criteria": {
       "coded_trigger": "2024-04-02 06:40:42 +0000"
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/diamond_shulker_from_diamond_chest": {
+  "darkutils:adventure/runelic": {
     "criteria": {
-      "has_diamond_chest": "2024-04-02 08:01:50 +0000"
+      "get_tome": "2024-04-02 06:49:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2024-04-02 06:50:00 +0000"
     },
     "done": true
   },
@@ -23204,24 +23204,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
-    "criteria": {
-      "has_orange_tulip": "2024-04-02 06:50:00 +0000"
-    },
-    "done": true
-  },
-  "evilcraft:fart": {
-    "criteria": {
-      "criteria_0": "2024-04-02 07:32:14 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/netherite_chest": {
-    "criteria": {
-      "has_diamond_chest": "2024-04-02 08:01:50 +0000"
-    },
-    "done": true
-  },
   "bigreactors:recipes/building_blocks/reprocessor/wasteinjector": {
     "criteria": {
       "has_item2": "2024-04-02 07:22:17 +0000"
@@ -23231,6 +23213,186 @@
   "bigreactors:recipes/building_blocks/fluidizer/solidinjector": {
     "criteria": {
       "has_item2": "2024-04-02 07:22:17 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:fart": {
+    "criteria": {
+      "criteria_0": "2024-04-02 07:32:14 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/diamond_shulker_from_diamond_chest": {
+    "criteria": {
+      "has_diamond_chest": "2024-04-02 08:01:50 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/netherite_chest": {
+    "criteria": {
+      "has_diamond_chest": "2024-04-02 08:01:50 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/gold_to_netherite_tier_upgrade": {
+    "criteria": {
+      "has_gold_to_diamond_tier_upgrade": "2024-04-02 08:57:53 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/manadiamond_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/stone_to_otherstone": {
+    "criteria": {
+      "has_stone": "2024-04-02 08:54:32 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/third_eye": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/runic_altar_alt": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "extrastorage:iron_crafter": {
+    "criteria": {
+      "inv_changed": "2024-04-02 09:30:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_tablet_alt": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:wireless_monitoring": {
+    "criteria": {
+      "wireless_crafting_monitor_in_inventory": "2024-04-02 09:37:03 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:monitoring": {
+    "criteria": {
+      "crafting_monitor_in_inventory": "2024-04-02 09:24:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_gun": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:autocrafting": {
+    "criteria": {
+      "crafter_in_inventory": "2024-04-02 09:25:08 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:pattern_creation": {
+    "criteria": {
+      "pattern_and_pattern_grid_in_inventory": "2024-04-02 09:22:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_pylon": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/combat/crafting/butcher_knife": {
+    "criteria": {
+      "has_iron_ingot": "2024-04-02 09:14:34 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/goddess_charm": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "extrastorage:recipes/misc/gold_crafter": {
+    "criteria": {
+      "has_iron_crafter": "2024-04-02 09:30:59 +0000"
+    },
+    "done": true
+  },
+  "extrastorage:recipes/misc/iron_crafter": {
+    "criteria": {
+      "has_crafter": "2024-04-02 09:25:08 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:wireless_items": {
+    "criteria": {
+      "wireless_grid_in_inventory": "2024-04-02 09:36:04 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/test": {
+    "criteria": {
+      "has_stone": "2024-04-02 08:54:32 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/awakened_feather": {
+    "criteria": {
+      "has_feather": "2024-04-02 09:12:44 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/mana_diamond_block": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/avatar": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/auto_crafting_halo": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:wireless": {
+    "criteria": {
+      "wireless_transmitter_in_inventory": "2024-04-02 09:33:58 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:managing_patterns": {
+    "criteria": {
+      "crafter_manager_in_inventory": "2024-04-02 09:28:23 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/iron_dust_from_ingot": {
+    "criteria": {
+      "has_iron_ingot": "2024-04-02 09:14:34 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/divining_rod": {
+    "criteria": {
+      "has_item": "2024-04-02 08:58:05 +0000"
     },
     "done": true
   },

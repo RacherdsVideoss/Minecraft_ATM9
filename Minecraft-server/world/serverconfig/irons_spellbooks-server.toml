@@ -25,6 +25,8 @@
 	applyAllMultihandAttributes = true
 	#Whether or not creepers should be healed and become fire immune when struck by lightning. Default: true
 	betterCreeperThunderHit = true
+	#Whether or not spells such as Fireball or Fire Breath should destroy terrain or create fire. Default: false
+	spellGriefing = false
 
 ["Upgrade Overrides"]
 	#Use these lists to change what items can interact with the Arcane Anvil's upgrade system. This can also be done via datapack.
@@ -936,4 +938,14 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 45.0
+
+	[Spells."irons_spellbooks:shockwave"]
+		Enabled = true
+		School = "irons_spellbooks:lightning"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 30.0
 
