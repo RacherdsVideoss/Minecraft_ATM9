@@ -13598,9 +13598,10 @@
   },
   "silentgear:crimson_iron": {
     "criteria": {
-      "get_ore": "2024-03-20 06:22:28 +0000"
+      "get_ore": "2024-03-20 06:22:28 +0000",
+      "get_ingot": "2024-04-10 03:17:34 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
@@ -23234,6 +23235,18 @@
     },
     "done": true
   },
+  "occultism:recipes/spirit_trade/spirit_trade/stone_to_otherstone": {
+    "criteria": {
+      "has_stone": "2024-04-02 08:54:32 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/test": {
+    "criteria": {
+      "has_stone": "2024-04-02 08:54:32 +0000"
+    },
+    "done": true
+  },
   "sophisticatedstorage:recipes/misc/gold_to_netherite_tier_upgrade": {
     "criteria": {
       "has_gold_to_diamond_tier_upgrade": "2024-04-02 08:57:53 +0000"
@@ -23243,12 +23256,6 @@
   "botania:recipes/misc/conversions/manadiamond_block_deconstruct": {
     "criteria": {
       "has_item": "2024-04-02 08:58:05 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_trade/spirit_trade/stone_to_otherstone": {
-    "criteria": {
-      "has_stone": "2024-04-02 08:54:32 +0000"
     },
     "done": true
   },
@@ -23264,27 +23271,9 @@
     },
     "done": true
   },
-  "extrastorage:iron_crafter": {
-    "criteria": {
-      "inv_changed": "2024-04-02 09:30:59 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/mana_tablet_alt": {
     "criteria": {
       "has_item": "2024-04-02 08:58:05 +0000"
-    },
-    "done": true
-  },
-  "refinedstorage:wireless_monitoring": {
-    "criteria": {
-      "wireless_crafting_monitor_in_inventory": "2024-04-02 09:37:03 +0000"
-    },
-    "done": true
-  },
-  "refinedstorage:monitoring": {
-    "criteria": {
-      "crafting_monitor_in_inventory": "2024-04-02 09:24:24 +0000"
     },
     "done": true
   },
@@ -23294,63 +23283,15 @@
     },
     "done": true
   },
-  "refinedstorage:autocrafting": {
-    "criteria": {
-      "crafter_in_inventory": "2024-04-02 09:25:08 +0000"
-    },
-    "done": true
-  },
-  "refinedstorage:pattern_creation": {
-    "criteria": {
-      "pattern_and_pattern_grid_in_inventory": "2024-04-02 09:22:45 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/decorations/mana_pylon": {
     "criteria": {
       "has_item": "2024-04-02 08:58:05 +0000"
     },
     "done": true
   },
-  "occultism:recipes/combat/crafting/butcher_knife": {
-    "criteria": {
-      "has_iron_ingot": "2024-04-02 09:14:34 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/goddess_charm": {
     "criteria": {
       "has_item": "2024-04-02 08:58:05 +0000"
-    },
-    "done": true
-  },
-  "extrastorage:recipes/misc/gold_crafter": {
-    "criteria": {
-      "has_iron_crafter": "2024-04-02 09:30:59 +0000"
-    },
-    "done": true
-  },
-  "extrastorage:recipes/misc/iron_crafter": {
-    "criteria": {
-      "has_crafter": "2024-04-02 09:25:08 +0000"
-    },
-    "done": true
-  },
-  "refinedstorage:wireless_items": {
-    "criteria": {
-      "wireless_grid_in_inventory": "2024-04-02 09:36:04 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_trade/spirit_trade/test": {
-    "criteria": {
-      "has_stone": "2024-04-02 08:54:32 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/awakened_feather": {
-    "criteria": {
-      "has_feather": "2024-04-02 09:12:44 +0000"
     },
     "done": true
   },
@@ -23372,15 +23313,21 @@
     },
     "done": true
   },
-  "refinedstorage:wireless": {
+  "botania:recipes/tools/divining_rod": {
     "criteria": {
-      "wireless_transmitter_in_inventory": "2024-04-02 09:33:58 +0000"
+      "has_item": "2024-04-02 08:58:05 +0000"
     },
     "done": true
   },
-  "refinedstorage:managing_patterns": {
+  "occultism:recipes/spirit_fire/spirit_fire/awakened_feather": {
     "criteria": {
-      "crafter_manager_in_inventory": "2024-04-02 09:28:23 +0000"
+      "has_feather": "2024-04-02 09:12:44 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/combat/crafting/butcher_knife": {
+    "criteria": {
+      "has_iron_ingot": "2024-04-02 09:14:34 +0000"
     },
     "done": true
   },
@@ -23390,9 +23337,1480 @@
     },
     "done": true
   },
-  "botania:recipes/tools/divining_rod": {
+  "refinedstorage:pattern_creation": {
     "criteria": {
-      "has_item": "2024-04-02 08:58:05 +0000"
+      "pattern_and_pattern_grid_in_inventory": "2024-04-02 09:22:45 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:monitoring": {
+    "criteria": {
+      "crafting_monitor_in_inventory": "2024-04-02 09:24:24 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:autocrafting": {
+    "criteria": {
+      "crafter_in_inventory": "2024-04-02 09:25:08 +0000"
+    },
+    "done": true
+  },
+  "extrastorage:recipes/misc/iron_crafter": {
+    "criteria": {
+      "has_crafter": "2024-04-02 09:25:08 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:managing_patterns": {
+    "criteria": {
+      "crafter_manager_in_inventory": "2024-04-02 09:28:23 +0000"
+    },
+    "done": true
+  },
+  "extrastorage:iron_crafter": {
+    "criteria": {
+      "inv_changed": "2024-04-02 09:30:59 +0000"
+    },
+    "done": true
+  },
+  "extrastorage:recipes/misc/gold_crafter": {
+    "criteria": {
+      "has_iron_crafter": "2024-04-02 09:30:59 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:wireless": {
+    "criteria": {
+      "wireless_transmitter_in_inventory": "2024-04-02 09:33:58 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:wireless_items": {
+    "criteria": {
+      "wireless_grid_in_inventory": "2024-04-02 09:36:04 +0000"
+    },
+    "done": true
+  },
+  "refinedstorage:wireless_monitoring": {
+    "criteria": {
+      "wireless_crafting_monitor_in_inventory": "2024-04-02 09:37:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/chute": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-04-10 02:50:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gantry_shaft": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/harvest_goddess_band": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_dust": {
+    "criteria": {
+      "has_item": "2024-04-10 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/spout": {
+    "criteria": {
+      "has_item": "2024-04-10 01:59:13 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_shears": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/portable_storage_interface": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/crimson_iron_dust_from_ingot": {
+    "criteria": {
+      "has_crimson_iron_ingot": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_block": {
+    "criteria": {
+      "has_item": "2024-04-10 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/wooden_bracket": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_dust_smelting": {
+    "criteria": {
+      "has_item": "2024-04-10 03:18:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/red_string_comparator": {
+    "criteria": {
+      "has_base_block": "2024-04-10 02:21:00 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_plough": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/belt_connector": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_battery_3": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_battery_2": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_battery_1": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_harvester": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-04-10 03:18:27 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/track_switch_andesite": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/metal_girder": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_gray_dye": {
+    "criteria": {
+      "forge:dyes/gray": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/dark_matter": {
+    "criteria": {
+      "has_aeternalis": "2024-04-10 01:44:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/encased_chain_drive": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2024-04-10 03:18:27 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_dust_smelting": {
+    "criteria": {
+      "has_item": "2024-04-10 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_piston": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-04-10 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/clibano_combustion/lapis_lazuli_from_clibano_combusting": {
+    "criteria": {
+      "has_item": "2024-04-10 02:50:35 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_gray": {
+    "criteria": {
+      "has_dyes/black": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/andesite_scaffolding_from_andesite_alloy_stonecutting": {
+    "criteria": {
+      "has_andesite_alloy": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/speedometer": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/zero_ring": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_roller": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/white_sail": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/tools/mininggadget_fancy": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/building_blocks/mobius_fuel_block": {
+    "criteria": {
+      "has_mobius_fuel": "2024-04-10 01:43:53 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/blaze_powder_from_rod": {
+    "criteria": {
+      "has_blaze_rod": "2024-04-10 01:38:08 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-04-10 03:36:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/linear_chassis": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gantry_carriage": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2024-04-10 03:36:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/large_cogwheel": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/volcanite_amulet": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2024-04-10 02:23:27 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/spirit_attuned_gem": {
+    "criteria": {
+      "has_diamond": "2024-04-10 01:44:44 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_nugget": {
+    "criteria": {
+      "has_item": "2024-04-10 03:36:14 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/archangel_smite": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/lapis_dust": {
+    "criteria": {
+      "has_lapis": "2024-04-10 02:50:35 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-04-10 02:50:35 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/swiftwolf_rending_gale": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_void_junk": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_magnet": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/crimson_iron_dust_from_raw": {
+    "criteria": {
+      "has_raw_crimson_iron": "2024-04-10 03:10:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp": {
+    "criteria": {
+      "has_dried_kelp_block": "2024-04-10 02:00:30 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/red_matter": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_nugget": {
+    "criteria": {
+      "has_item": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_fortune_1": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_fortune_2": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_fortune_3": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/catalytic_lens": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/material_grader": {
+    "criteria": {
+      "has_item": "2024-04-10 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/water_wheel": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/andesite_alloy_block": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/purple_dye_from_tall_lavender": {
+    "criteria": {
+      "has_flower": "2024-04-10 02:18:04 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/lapis_block_1x": {
+    "criteria": {
+      "has_lapis_block": "2024-04-10 03:18:58 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/catalytic_lens_alt": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "projecte:dark_matter": {
+    "criteria": {
+      "dm": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_nugget": {
+    "criteria": {
+      "has_item": "2024-04-10 03:18:27 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_leggings": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/kelp_roll": {
+    "criteria": {
+      "has_dried_kelp": "2024-04-10 02:00:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/salvager": {
+    "criteria": {
+      "has_item": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/clutch": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/depot": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/gold_dust_from_ingot": {
+    "criteria": {
+      "has_gold_ingot": "2024-04-10 02:28:09 +0000"
+    },
+    "done": true
+  },
+  "projecte:transmutation_tablet": {
+    "criteria": {
+      "trans_tablet": "2024-04-10 01:45:47 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/shaft": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sticker": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:big_job_tools": {
+    "criteria": {
+      "hammer": "2024-04-10 03:31:25 +0000"
+    },
+    "done": false
+  },
+  "create:recipes/misc/crafting/kinetics/radial_chassis": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_sword": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/goggles": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/andesite_alloy_from_block": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/copper_door": {
+    "criteria": {
+      "has_item": "2024-04-10 01:59:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/display_board": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/piston_extension_pole": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "mekanism:purification_chamber": {
+    "criteria": {
+      "purification_chamber": "2024-04-10 03:14:02 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_gray_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/cart_assembler": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_gray2": {
+    "criteria": {
+      "recipe_condition2": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2024-04-10 02:23:34 +0000"
+    },
+    "done": true
+  },
+  "silentgear:salvager": {
+    "criteria": {
+      "get_item": "2024-04-10 03:19:21 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/decorations/dm_furnace": {
+    "criteria": {
+      "has_dark_matter": "2024-04-10 01:45:28 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/tools/mininggadget_simple": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/basin": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_gray_industrial_lamp": {
+    "criteria": {
+      "has_small_gray_industrial_lamp": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_silk": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "silentgear:azure_silver": {
+    "criteria": {
+      "get_ingot": "2024-04-10 03:36:14 +0000"
+    },
+    "done": false
+  },
+  "create:recipes/decorations/andesite_ladder_from_andesite_alloy_stonecutting": {
+    "criteria": {
+      "has_andesite_alloy": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:blaze_gold": {
+    "criteria": {
+      "get_item": "2024-04-10 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_gray_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/contraption_controls": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:crimson_steel": {
+    "criteria": {
+      "get_item": "2024-04-10 03:18:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearshift": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2024-04-10 02:50:35 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/copper_dust": {
+    "criteria": {
+      "has_copper": "2024-04-10 02:50:08 +0000"
+    },
+    "done": true
+  },
+  "mekanism:alloy_upgrading": {
+    "criteria": {
+      "upgrade": "2024-04-10 03:25:15 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/red_dye_from_rose": {
+    "criteria": {
+      "has_flower": "2024-04-10 02:23:35 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/red_sand_1x": {
+    "criteria": {
+      "has_red_sand": "2024-04-10 02:23:34 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/gem_of_eternal_density": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_helmet": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_press": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/rope_pulley": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "mekanismtools:not_enough_shielding": {
+    "criteria": {
+      "shields": "2024-04-10 01:51:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/andesite_door": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_size_1": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_size_2": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_size_3": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_gray": {
+    "criteria": {
+      "has_dyes/black": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_2": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_1": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_4": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_3": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_5": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/weighted_ejector": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "projecte:dark_matter_block": {
+    "criteria": {
+      "dm_block": "2024-04-10 01:45:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_candle": {
+    "criteria": {
+      "has_gray_dye": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_block": {
+    "criteria": {
+      "has_item": "2024-04-10 03:36:14 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_light_placer": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/coal_dust": {
+    "criteria": {
+      "has_coal": "2024-04-10 02:50:08 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/minecart_coupling": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_pick": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/building_blocks/dark_matter_block": {
+    "criteria": {
+      "has_dark_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "silentgear:material_grader": {
+    "criteria": {
+      "get_catalyst": "2024-04-10 03:21:59 +0000",
+      "get_grader": "2024-04-10 03:20:58 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_axe": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_drill": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/void_ring": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust": {
+    "criteria": {
+      "has_tin": "2024-04-10 02:50:35 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/chute_copper": {
+    "criteria": {
+      "has_plate": "2024-04-10 01:59:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/cuckoo_clock": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_gray2": {
+    "criteria": {
+      "recipe_condition2": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/iron_dust": {
+    "criteria": {
+      "has_iron": "2024-04-10 02:52:17 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/red_matter_alt": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/filter": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-04-10 03:18:27 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_gray2": {
+    "criteria": {
+      "recipe_condition2": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/misc/conversions/dark_matter_block_deconstruct": {
+    "criteria": {
+      "has_dark_matter_block": "2024-04-10 01:45:28 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_block": {
+    "criteria": {
+      "has_item": "2024-04-10 03:18:27 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/copper_block_1x": {
+    "criteria": {
+      "has_copper_block_1x": "2024-04-10 02:16:56 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_hoe": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/clipboard": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:hose_pulley": {
+    "criteria": {
+      "0": "2024-04-10 02:06:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/millstone": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/ignition_ring": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/netherite_dust_from_ingot": {
+    "criteria": {
+      "has_netherite_ingot": "2024-04-10 02:38:57 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/copper_block_2x": {
+    "criteria": {
+      "has_copper_block_1x": "2024-04-10 02:16:56 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/diamond_dust_from_gem": {
+    "criteria": {
+      "has_diamond_gem": "2024-04-10 01:44:44 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_dust": {
+    "criteria": {
+      "has_item": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_repair_kit": {
+    "criteria": {
+      "has_item": "2024-04-10 03:18:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2024-04-10 02:00:15 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/aluminum_dust_from_raw": {
+    "criteria": {
+      "has_raw_aluminum": "2024-04-10 03:57:48 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_gray": {
+    "criteria": {
+      "has_dyes/black": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2024-04-10 02:50:35 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_boots": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "create:copper_casing": {
+    "criteria": {
+      "0": "2024-04-10 01:58:55 +0000"
+    },
+    "done": true
+  },
+  "mekanismgenerators:burn_the_gas": {
+    "criteria": {
+      "gas_burning_generator": "2024-04-10 03:21:12 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_saw": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:grader_catalyst_2": {
+    "criteria": {
+      "get_item": "2024-04-10 03:32:05 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/osmium_dust_from_ingot": {
+    "criteria": {
+      "has_osmium_ingot": "2024-04-10 01:41:50 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
+    "criteria": {
+      "has_item": "2024-04-10 01:59:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/wrench": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "has_item": "2024-04-10 01:59:13 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/copper_dust_from_raw": {
+    "criteria": {
+      "has_raw_copper": "2024-04-10 02:09:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blazing_dust": {
+    "criteria": {
+      "has_item": "2024-04-10 03:31:57 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/large_cogwheel_from_little": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_range_3": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_range_2": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_range_1": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_nugget": {
+    "criteria": {
+      "has_item": "2024-04-10 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/black_hole_band": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_ingot": {
+    "criteria": {
+      "has_item": "2024-04-10 03:36:14 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-04-10 03:36:14 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/building_blocks/alchemical_coal_block": {
+    "criteria": {
+      "has_alchemical_coal": "2024-04-10 01:43:37 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/disenchanter": {
+    "criteria": {
+      "has_item": "2024-04-10 01:59:13 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_ingot": {
+    "criteria": {
+      "has_item": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/aluminum_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_aluminum_block": "2024-04-10 03:57:49 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_dust": {
+    "criteria": {
+      "has_item": "2024-04-10 03:36:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/hand_crank": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_gray2": {
+    "criteria": {
+      "recipe_condition2": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_hammer": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/azure_silver_dust_from_ingot": {
+    "criteria": {
+      "has_azure_silver_ingot": "2024-04-10 03:36:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/turntable": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/andesite_bars_from_andesite_alloy_stonecutting": {
+    "criteria": {
+      "has_andesite_alloy": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_gray": {
+    "criteria": {
+      "has_dyes/black": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/emerald_dust_from_gem": {
+    "criteria": {
+      "has_emerald_gem": "2024-04-10 02:17:40 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_dust_smelting": {
+    "criteria": {
+      "has_item": "2024-04-10 03:36:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/sticky_mechanical_piston": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_block": {
+    "criteria": {
+      "has_item": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_dust": {
+    "criteria": {
+      "has_item": "2024-04-10 03:18:27 +0000"
+    },
+    "done": true
+  },
+  "create:hose_pulley_lava": {
+    "criteria": {
+      "0": "2024-04-10 02:06:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/analog_lever": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_aluminum_from_block": {
+    "criteria": {
+      "has_item": "2024-04-10 03:57:49 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_freezing": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2024-04-10 01:57:10 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_bearing": {
+    "criteria": {
+      "has_item": "2024-04-10 01:57:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_dust_smelting": {
+    "criteria": {
+      "has_item": "2024-04-10 03:17:34 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/tools/mininggadget": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/evertide_amulet": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/modificationtable": {
+    "criteria": {
+      "has_upgrade": "2024-04-10 03:19:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/andesite_tunnel": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-04-10 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/building_blocks/aeternalis_fuel_block": {
+    "criteria": {
+      "has_aeternalis_fuel": "2024-04-10 01:44:13 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2024-04-10 03:27:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/windmill_bearing": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/andesite_funnel": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/combat/dm_chestplate": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gray_industrial_lamp": {
+    "criteria": {
+      "has_gray_industrial_lamp": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_drain": {
+    "criteria": {
+      "has_item": "2024-04-10 01:59:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_mixer": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/lapis_dust_from_gem": {
+    "criteria": {
+      "has_lapis_gem": "2024-04-10 02:33:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2024-04-10 03:18:58 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_gray_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-04-10 02:23:32 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/cogwheel": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/taboo_book": {
+    "criteria": {
+      "has_book": "2024-04-10 02:25:56 +0000"
+    },
+    "done": true
+  },
+  "projecte:recipes/tools/dm_shovel": {
+    "criteria": {
+      "has_matter": "2024-04-10 01:44:56 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/obsidian_dust": {
+    "criteria": {
+      "has_obsidian": "2024-04-10 01:41:00 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/metal_bracket": {
+    "criteria": {
+      "has_item": "2024-04-10 01:56:32 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/copper_dust_from_ingot": {
+    "criteria": {
+      "has_copper_ingot": "2024-04-10 01:58:29 +0000"
     },
     "done": true
   },
